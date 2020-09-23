@@ -1,0 +1,121 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Holodeck\Package\dxbeta
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+E:\Holodeck\Full VB ver.1\Texture1.bmp=
+E:\Holodeck\Full VB ver.1\Texture2.bmp=
+E:\Holodeck\Full VB ver.1\test6.dat=
+E:\Holodeck\Full VB ver.1\test2.dat=
+E:\Holodeck\Full VB ver.1\test4.dat=
+E:\Holodeck\Full VB ver.1\Test5.dat=
+E:\Holodeck\Full VB ver.1\Test.dat=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Holodeck\DX ver.2\HolodeckDX.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Holodeck\Full VB ver.1\Texture1.bmp=Yes
+E:\Holodeck\Full VB ver.1\Texture2.bmp=Yes
+E:\Holodeck\Full VB ver.1\test6.dat=Yes
+E:\Holodeck\Full VB ver.1\test2.dat=Yes
+E:\Holodeck\Full VB ver.1\test4.dat=Yes
+E:\Holodeck\Full VB ver.1\Test5.dat=Yes
+E:\Holodeck\Full VB ver.1\Test.dat=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Holodeck\DX ver.2\HolodeckDX.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Holodeck\Full VB ver.1\Texture1.bmp=$(AppPath)
+E:\Holodeck\Full VB ver.1\Texture2.bmp=$(AppPath)
+E:\Holodeck\Full VB ver.1\test6.dat=$(AppPath)
+E:\Holodeck\Full VB ver.1\test2.dat=$(AppPath)
+E:\Holodeck\Full VB ver.1\test4.dat=$(AppPath)
+E:\Holodeck\Full VB ver.1\Test5.dat=$(AppPath)
+E:\Holodeck\Full VB ver.1\Test.dat=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Holodeck\DX ver.2\HolodeckDX.exe=No
+E:\Holodeck\Full VB ver.1\Texture1.bmp=No
+E:\Holodeck\Full VB ver.1\Texture2.bmp=No
+E:\Holodeck\Full VB ver.1\test6.dat=No
+E:\Holodeck\Full VB ver.1\test2.dat=No
+E:\Holodeck\Full VB ver.1\test4.dat=No
+E:\Holodeck\Full VB ver.1\Test5.dat=No
+E:\Holodeck\Full VB ver.1\Test.dat=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Holodeck DX Version 0.1.1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Mainframe Software
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Mainframe Software]
+Icon1=HolodeckDX.exe
+Title1=Holodeck DX Version 0.1.1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Holodeck\Package\dxbeta
+ProjectFolder=E:\Holodeck\DX ver.2
+ServerSideCab=
+File1=E:\Holodeck\Package\dxbeta\setup.exe
+File2=E:\Holodeck\Package\dxbeta\Setup.Lst
+File3=E:\Holodeck\Package\dxbeta\HolodeckDX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
